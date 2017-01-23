@@ -11,7 +11,7 @@ This template is created with the help of [jekyll](http://jekyllrb.com/).
 
 **Project Screenshot**
 
-![project one](/images/portfolio-1.gif){: .portfolio-image }
+![project one]({{site.baseurl}}/images/portfolio-1.gif){: .portfolio-image }
 
 
 [Download](http://www.google.com){: .download_btn }
