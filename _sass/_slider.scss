@@ -4,7 +4,7 @@
 	height: 450px;
 	position: relative;
 	overflow: hidden;
-	background: transparent url(../images/slider_bg.gif) repeat 0% 0%;
+	background: transparent url(#{$baseurl}/images/slider_bg.gif) repeat 0% 0%;
 	border-bottom: 5px solid $brand-color1;
 	// border-bottom: 8px solid #efc34a;
 	// box-shadow: 0px 1px 1px rgba(0,0,0,0.2), 0px -2px 1px #fff;
@@ -207,7 +207,7 @@
 	height: 20px;
 	top: 5px;
 	left: 5px;
-	background: transparent url(../images/arrows.png) no-repeat top left;
+	background: transparent url(#{$baseurl}/images/arrows.png) no-repeat top left;
 	border-radius: 50%;
 	box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }

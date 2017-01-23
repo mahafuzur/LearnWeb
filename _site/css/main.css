@@ -4,7 +4,7 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font: 400 16px/1.5 "Open Sans", Arial, sans-serif; color: #3a3e3f; background-color: #ffffff; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; background: url(/images/bg.png); }
+body { font: 400 16px/1.5 "Open Sans", Arial, sans-serif; color: #3a3e3f; background-color: #ffffff; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; background: url(/LearnWeb/images/bg.png); }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
@@ -79,7 +79,7 @@ hr { border-top: 1px solid #ddd; margin: 10px 0; }
 
 .footer-heading { font-size: 18px; margin-bottom: 15px; color: #f26c4f; }
 
-.footer-col ul { margin: 0; padding: 0; list-style-image: url(/images/list.png); list-style-position: inside; }
+.footer-col ul { margin: 0; padding: 0; list-style-image: url(/LearnWeb/images/list.png); list-style-position: inside; }
 .footer-col a { color: #ffffff; padding: 10px 0; display: block; padding-bottom: 2px; text-decoration: none; border-bottom: 1px solid transparent; }
 .footer-col a:hover { border-bottom: 1px solid #f26c4f; }
 
@@ -161,7 +161,7 @@ hr { border-top: 1px solid #ddd; margin: 10px 0; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
-.site-header { background: url(/images/header_bg.png); border-bottom: 5px solid #f26c4f; }
+.site-header { background: url(/LearnWeb/images/header_bg.png); border-bottom: 5px solid #f26c4f; }
 .site-header h1 { margin: 0; display: inline-block; }
 
 .fa-graduation-cap { transform: rotate(20deg); margin-left: -15px; color: #bdd4de; }
@@ -190,7 +190,7 @@ hr { border-top: 1px solid #ddd; margin: 10px 0; }
 
 li.active a { color: #f26c4f; }
 
-.da-slider { width: 100%; min-width: 520px; height: 450px; position: relative; overflow: hidden; background: transparent url(../images/slider_bg.gif) repeat 0% 0%; border-bottom: 5px solid #f26c4f; -webkit-transition: background-position 1s ease-out 0.3s; -moz-transition: background-position 1s ease-out 0.3s; -o-transition: background-position 1s ease-out 0.3s; -ms-transition: background-position 1s ease-out 0.3s; transition: background-position 1s ease-out 0.3s; }
+.da-slider { width: 100%; min-width: 520px; height: 450px; position: relative; overflow: hidden; background: transparent url(/LearnWeb/images/slider_bg.gif) repeat 0% 0%; border-bottom: 5px solid #f26c4f; -webkit-transition: background-position 1s ease-out 0.3s; -moz-transition: background-position 1s ease-out 0.3s; -o-transition: background-position 1s ease-out 0.3s; -ms-transition: background-position 1s ease-out 0.3s; transition: background-position 1s ease-out 0.3s; }
 
 .globel-slider { width: 100%; min-width: 520px; height: 450px; border-bottom: 5px solid #f26c4f; position: relative; overflow: hidden; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
@@ -234,7 +234,7 @@ li.active a { color: #f26c4f; }
 
 .da-slider:hover .da-arrows span { opacity: 1; }
 
-.da-arrows span:after { content: ''; position: absolute; width: 20px; height: 20px; top: 5px; left: 5px; background: transparent url(../images/arrows.png) no-repeat top left; border-radius: 50%; box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); }
+.da-arrows span:after { content: ''; position: absolute; width: 20px; height: 20px; top: 5px; left: 5px; background: transparent url(/LearnWeb/images/arrows.png) no-repeat top left; border-radius: 50%; box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); }
 
 .da-arrows span:hover:after { box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); }
 
@@ -491,7 +491,7 @@ li.active a { color: #f26c4f; }
 .overlay-effect { position: absolute; left: 100%; top: 100%; right: 100%; bottom: 100%; background: #6c767c; text-align: center; transition: all 0.3s linear; }
 .overlay-effect a i.fa { color: #f26c4f; font-size: 45px; padding-top: 30%; padding-left: 5px; padding-right: 5px; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); transition: all 0.3s linear; }
 .overlay-effect a i.fa:hover { color: #2b3a42; }
-.overlay-effect a.read_more_btn { display: block; width: 40%; margin: 30px auto; background: url(/images/read_more_btn.png) repeat-x; font-size: 24px; text-transform: uppercase; color: #fff; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); transition: all 0.3s linear; }
+.overlay-effect a.read_more_btn { display: block; width: 40%; margin: 30px auto; background: url(/LearnWeb/images/read_more_btn.png) repeat-x; font-size: 24px; text-transform: uppercase; color: #fff; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); transition: all 0.3s linear; }
 .overlay-effect a.read_more_btn:hover { text-decoration: none; background: #2b3a42; }
 
 .snigle_portfolio_box:hover > .overlay-effect { left: 20px; top: 20px; right: 20px; bottom: 20px; }
@@ -533,9 +533,9 @@ div .snippet-carousel:last-child { margin-right: 0; }
 
 .slick-arrow { background: transparent; text-indent: -99999px; border: none; position: absolute; cursor: pointer; z-index: 6; }
 
-.slick-prev { background: url(/images/left-arrow.png) no-repeat center center; width: 45px; height: 70px; top: 50%; left: -5%; margin-top: -60px; }
+.slick-prev { background: url(/LearnWeb/images/left-arrow.png) no-repeat center center; width: 45px; height: 70px; top: 50%; left: -5%; margin-top: -60px; }
 
-.slick-next { background: url(/images/right-arrow.png) no-repeat center center; width: 45px; height: 70px; top: 50%; right: -10%; margin-top: -60px; }
+.slick-next { background: url(/LearnWeb/images/right-arrow.png) no-repeat center center; width: 45px; height: 70px; top: 50%; right: -10%; margin-top: -60px; }
 
 .blog { width: 65%; float: left; margin-right: 5%; margin-top: 30px; }
 

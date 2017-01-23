@@ -3,10 +3,10 @@
   <channel>
     <title>Learn Web</title>
     <description>This site was created for learning the web development</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Jan 2017 20:33:15 +0600</pubDate>
-    <lastBuildDate>Mon, 23 Jan 2017 20:33:15 +0600</lastBuildDate>
+    <link>http://localhost:4000/LearnWeb/</link>
+    <atom:link href="http://localhost:4000/LearnWeb/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 23 Jan 2017 21:59:37 +0600</pubDate>
+    <lastBuildDate>Mon, 23 Jan 2017 21:59:37 +0600</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -114,8 +114,8 @@ c. List item 1
 
 </description>
         <pubDate>Wed, 04 May 2016 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/2016/05/04/markdown-tag-example.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/05/04/markdown-tag-example.html</guid>
+        <link>http://localhost:4000/LearnWeb/2016/05/04/markdown-tag-example.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LearnWeb/2016/05/04/markdown-tag-example.html</guid>
         
         
       </item>
@@ -138,7 +138,7 @@ c. List item 1
 
 &lt;p&gt;By now you’ve probably noticed that you’ll be spending a good bit of time in Terminal or in the command line when installing and using Jekyll. If you’re already comfortable with Terminal that shouldn’t really be a problem for you. Some of you, however, are probably pretty nervous at the thought of having to spend that much time in the command line. I totally understand if you fit into that category, I’m not that comfortable myself. The first time I tried to install Jekyll I had a terrible time getting my dependencies set up. In the end it had more to do with the version of OSX I was using, but it was a longer process than I was prepared for. Here’s my Twitter stream during that time:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/jekyll_install.jpg&quot; alt=&quot;My Twitter stream&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/LearnWeb/images/jekyll_install.jpg&quot; alt=&quot;My Twitter stream&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Just be prepared to spend some time getting everything set up, and don’t get discouraged if what you’re doing doesn’t work right away. Spend some time researching any error messages that shows up and you’ll be fine.&lt;/p&gt;
 
@@ -155,8 +155,8 @@ c. List item 1
 &lt;p&gt;Those version numbers are correct as of August of 2015, but be sure to check prior to doing your own install. Once you’ve got Jekyll installed you’re ready to start using it! We’ll take a look at basic Jekyll functionality in our next post!&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 May 2016 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/2016/05/04/installing-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/05/04/installing-jekyll.html</guid>
+        <link>http://localhost:4000/LearnWeb/2016/05/04/installing-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LearnWeb/2016/05/04/installing-jekyll.html</guid>
         
         <category>js</category>
         
@@ -185,8 +185,8 @@ c. List item 1
 
 </description>
         <pubDate>Sat, 23 Apr 2016 23:15:00 +0600</pubDate>
-        <link>http://localhost:4000/wordpress/2016/04/23/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/wordpress/2016/04/23/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/LearnWeb/wordpress/2016/04/23/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LearnWeb/wordpress/2016/04/23/welcome-to-jekyll.html</guid>
         
         
         <category>wordpress</category>
@@ -267,21 +267,21 @@ c. List item 1
 		
 
 		
-			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/blog/tag/index.html#css&quot;&amp;gt;css [7]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#css&quot;&amp;gt;css [7]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
-			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/blog/tag/index.html#git&quot;&amp;gt;git [2]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#git&quot;&amp;gt;git [2]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
-			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/blog/tag/index.html#html&quot;&amp;gt;html [2]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#html&quot;&amp;gt;html [2]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
-			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/blog/tag/index.html#jekyll&quot;&amp;gt;jekyll [7]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#jekyll&quot;&amp;gt;jekyll [7]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
-			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/blog/tag/index.html#js&quot;&amp;gt;js [3]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#js&quot;&amp;gt;js [3]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
-			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/blog/tag/index.html#php&quot;&amp;gt;php [5]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#php&quot;&amp;gt;php [5]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
-			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/blog/tag/index.html#tips&quot;&amp;gt;tips [4]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#tips&quot;&amp;gt;tips [4]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
-			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/blog/tag/index.html#wordpress&quot;&amp;gt;wordpress [5]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#wordpress&quot;&amp;gt;wordpress [5]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
 
     &amp;lt;/ul&amp;gt;
@@ -306,37 +306,37 @@ c. List item 1
 		&amp;lt;ul class=&quot;taglist&quot;&amp;gt;
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;May 04, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2016/05/04/installing-jekyll.html&quot; title=&quot;Installing Jekyll&quot;&amp;gt;Installing Jekyll&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;May 04, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2016/05/04/installing-jekyll.html&quot; title=&quot;Installing Jekyll&quot;&amp;gt;Installing Jekyll&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 26, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/php/2016/02/26/welcome-to-jekyll-2.html&quot; title=&quot;Welcome to Jekyll-1!&quot;&amp;gt;Welcome to Jekyll-1!&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 26, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/php/2016/02/26/welcome-to-jekyll-2.html&quot; title=&quot;Welcome to Jekyll-1!&quot;&amp;gt;Welcome to Jekyll-1!&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 13, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2015/07/13/css.html&quot; title=&quot;Jekyll and CSS&quot;&amp;gt;Jekyll and CSS&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 13, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/07/13/css.html&quot; title=&quot;Jekyll and CSS&quot;&amp;gt;Jekyll and CSS&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 09, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/html/2015/07/09/front-matter.html&quot; title=&quot;YAML front matter&quot;&amp;gt;YAML front matter&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 09, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/html/2015/07/09/front-matter.html&quot; title=&quot;YAML front matter&quot;&amp;gt;YAML front matter&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jun 29, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/css/2015/06/29/markdown-basics.html&quot; title=&quot;Markdown Basics&quot;&amp;gt;Markdown Basics&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jun 29, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/css/2015/06/29/markdown-basics.html&quot; title=&quot;Markdown Basics&quot;&amp;gt;Markdown Basics&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 30, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2015/04/30/basic-commands.html&quot; title=&quot;Basic Commands&quot;&amp;gt;Basic Commands&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 30, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/04/30/basic-commands.html&quot; title=&quot;Basic Commands&quot;&amp;gt;Basic Commands&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 23, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2015/04/23/exploring-jekyll.html&quot; title=&quot;Exploring Jekyll&quot;&amp;gt;Exploring Jekyll&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 23, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/04/23/exploring-jekyll.html&quot; title=&quot;Exploring Jekyll&quot;&amp;gt;Exploring Jekyll&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
@@ -348,12 +348,12 @@ c. List item 1
 		&amp;lt;ul class=&quot;taglist&quot;&amp;gt;
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Aug 01, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2015/08/01/deployment-options.html&quot; title=&quot;Deployment Options&quot;&amp;gt;Deployment Options&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Aug 01, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/08/01/deployment-options.html&quot; title=&quot;Deployment Options&quot;&amp;gt;Deployment Options&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 23, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2015/04/23/exploring-jekyll.html&quot; title=&quot;Exploring Jekyll&quot;&amp;gt;Exploring Jekyll&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 23, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/04/23/exploring-jekyll.html&quot; title=&quot;Exploring Jekyll&quot;&amp;gt;Exploring Jekyll&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
@@ -365,12 +365,12 @@ c. List item 1
 		&amp;lt;ul class=&quot;taglist&quot;&amp;gt;
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;May 04, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2016/05/04/installing-jekyll.html&quot; title=&quot;Installing Jekyll&quot;&amp;gt;Installing Jekyll&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;May 04, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2016/05/04/installing-jekyll.html&quot; title=&quot;Installing Jekyll&quot;&amp;gt;Installing Jekyll&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 27, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2016/02/27/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll!&quot;&amp;gt;Welcome to Jekyll!&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 27, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2016/02/27/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll!&quot;&amp;gt;Welcome to Jekyll!&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
@@ -382,37 +382,37 @@ c. List item 1
 		&amp;lt;ul class=&quot;taglist&quot;&amp;gt;
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 27, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2016/02/27/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll!&quot;&amp;gt;Welcome to Jekyll!&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 27, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2016/02/27/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll!&quot;&amp;gt;Welcome to Jekyll!&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Aug 01, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2015/08/01/deployment-options.html&quot; title=&quot;Deployment Options&quot;&amp;gt;Deployment Options&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Aug 01, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/08/01/deployment-options.html&quot; title=&quot;Deployment Options&quot;&amp;gt;Deployment Options&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jun 07, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/js/2015/06/07/liquid-syntax.html&quot; title=&quot;Liquid Syntax Basics&quot;&amp;gt;Liquid Syntax Basics&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jun 07, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/js/2015/06/07/liquid-syntax.html&quot; title=&quot;Liquid Syntax Basics&quot;&amp;gt;Liquid Syntax Basics&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;May 14, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2015/05/14/configuration.html&quot; title=&quot;Configuration Options&quot;&amp;gt;Configuration Options&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;May 14, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/05/14/configuration.html&quot; title=&quot;Configuration Options&quot;&amp;gt;Configuration Options&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 30, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2015/04/30/basic-commands.html&quot; title=&quot;Basic Commands&quot;&amp;gt;Basic Commands&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 30, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/04/30/basic-commands.html&quot; title=&quot;Basic Commands&quot;&amp;gt;Basic Commands&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 23, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2015/04/23/exploring-jekyll.html&quot; title=&quot;Exploring Jekyll&quot;&amp;gt;Exploring Jekyll&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 23, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/04/23/exploring-jekyll.html&quot; title=&quot;Exploring Jekyll&quot;&amp;gt;Exploring Jekyll&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 15, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/html/2015/02/15/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll html!&quot;&amp;gt;Welcome to Jekyll html!&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 15, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/html/2015/02/15/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll html!&quot;&amp;gt;Welcome to Jekyll html!&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
@@ -424,17 +424,17 @@ c. List item 1
 		&amp;lt;ul class=&quot;taglist&quot;&amp;gt;
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;May 04, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2016/05/04/installing-jekyll.html&quot; title=&quot;Installing Jekyll&quot;&amp;gt;Installing Jekyll&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;May 04, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2016/05/04/installing-jekyll.html&quot; title=&quot;Installing Jekyll&quot;&amp;gt;Installing Jekyll&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 27, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2016/02/27/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll!&quot;&amp;gt;Welcome to Jekyll!&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 27, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2016/02/27/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll!&quot;&amp;gt;Welcome to Jekyll!&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 15, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/html/2015/02/15/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll html!&quot;&amp;gt;Welcome to Jekyll html!&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 15, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/html/2015/02/15/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll html!&quot;&amp;gt;Welcome to Jekyll html!&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
@@ -446,27 +446,27 @@ c. List item 1
 		&amp;lt;ul class=&quot;taglist&quot;&amp;gt;
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 26, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/php/2016/02/26/welcome-to-jekyll-2.html&quot; title=&quot;Welcome to Jekyll-1!&quot;&amp;gt;Welcome to Jekyll-1!&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 26, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/php/2016/02/26/welcome-to-jekyll-2.html&quot; title=&quot;Welcome to Jekyll-1!&quot;&amp;gt;Welcome to Jekyll-1!&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 13, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2015/07/13/css.html&quot; title=&quot;Jekyll and CSS&quot;&amp;gt;Jekyll and CSS&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 13, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/07/13/css.html&quot; title=&quot;Jekyll and CSS&quot;&amp;gt;Jekyll and CSS&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 09, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/html/2015/07/09/front-matter.html&quot; title=&quot;YAML front matter&quot;&amp;gt;YAML front matter&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 09, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/html/2015/07/09/front-matter.html&quot; title=&quot;YAML front matter&quot;&amp;gt;YAML front matter&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jun 29, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/css/2015/06/29/markdown-basics.html&quot; title=&quot;Markdown Basics&quot;&amp;gt;Markdown Basics&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jun 29, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/css/2015/06/29/markdown-basics.html&quot; title=&quot;Markdown Basics&quot;&amp;gt;Markdown Basics&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;May 14, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2015/05/14/configuration.html&quot; title=&quot;Configuration Options&quot;&amp;gt;Configuration Options&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;May 14, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/05/14/configuration.html&quot; title=&quot;Configuration Options&quot;&amp;gt;Configuration Options&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
@@ -478,22 +478,22 @@ c. List item 1
 		&amp;lt;ul class=&quot;taglist&quot;&amp;gt;
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 26, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/php/2016/02/26/welcome-to-jekyll-2.html&quot; title=&quot;Welcome to Jekyll-1!&quot;&amp;gt;Welcome to Jekyll-1!&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 26, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/php/2016/02/26/welcome-to-jekyll-2.html&quot; title=&quot;Welcome to Jekyll-1!&quot;&amp;gt;Welcome to Jekyll-1!&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 13, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2015/07/13/css.html&quot; title=&quot;Jekyll and CSS&quot;&amp;gt;Jekyll and CSS&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 13, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/07/13/css.html&quot; title=&quot;Jekyll and CSS&quot;&amp;gt;Jekyll and CSS&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 09, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/html/2015/07/09/front-matter.html&quot; title=&quot;YAML front matter&quot;&amp;gt;YAML front matter&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 09, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/html/2015/07/09/front-matter.html&quot; title=&quot;YAML front matter&quot;&amp;gt;YAML front matter&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jun 29, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/css/2015/06/29/markdown-basics.html&quot; title=&quot;Markdown Basics&quot;&amp;gt;Markdown Basics&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jun 29, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/css/2015/06/29/markdown-basics.html&quot; title=&quot;Markdown Basics&quot;&amp;gt;Markdown Basics&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
@@ -505,27 +505,27 @@ c. List item 1
 		&amp;lt;ul class=&quot;taglist&quot;&amp;gt;
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 26, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/php/2016/02/26/welcome-to-jekyll-2.html&quot; title=&quot;Welcome to Jekyll-1!&quot;&amp;gt;Welcome to Jekyll-1!&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 26, 2016&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/php/2016/02/26/welcome-to-jekyll-2.html&quot; title=&quot;Welcome to Jekyll-1!&quot;&amp;gt;Welcome to Jekyll-1!&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 13, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/2015/07/13/css.html&quot; title=&quot;Jekyll and CSS&quot;&amp;gt;Jekyll and CSS&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 13, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/07/13/css.html&quot; title=&quot;Jekyll and CSS&quot;&amp;gt;Jekyll and CSS&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 09, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/html/2015/07/09/front-matter.html&quot; title=&quot;YAML front matter&quot;&amp;gt;YAML front matter&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jul 09, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/html/2015/07/09/front-matter.html&quot; title=&quot;YAML front matter&quot;&amp;gt;YAML front matter&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jun 29, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/css/2015/06/29/markdown-basics.html&quot; title=&quot;Markdown Basics&quot;&amp;gt;Markdown Basics&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jun 29, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/css/2015/06/29/markdown-basics.html&quot; title=&quot;Markdown Basics&quot;&amp;gt;Markdown Basics&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jun 07, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/js/2015/06/07/liquid-syntax.html&quot; title=&quot;Liquid Syntax Basics&quot;&amp;gt;Liquid Syntax Basics&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jun 07, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/js/2015/06/07/liquid-syntax.html&quot; title=&quot;Liquid Syntax Basics&quot;&amp;gt;Liquid Syntax Basics&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
@@ -536,8 +536,8 @@ c. List item 1
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 28 Mar 2016 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/css/2016/03/28/jekyll-code-snippet.html</link>
-        <guid isPermaLink="true">http://localhost:4000/css/2016/03/28/jekyll-code-snippet.html</guid>
+        <link>http://localhost:4000/LearnWeb/css/2016/03/28/jekyll-code-snippet.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LearnWeb/css/2016/03/28/jekyll-code-snippet.html</guid>
         
         
         <category>css</category>
@@ -564,8 +564,8 @@ c. List item 1
 
 </description>
         <pubDate>Sat, 27 Feb 2016 22:01:03 +0600</pubDate>
-        <link>http://localhost:4000/2016/02/27/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/02/27/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/LearnWeb/2016/02/27/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LearnWeb/2016/02/27/welcome-to-jekyll.html</guid>
         
         <category>js</category>
         
@@ -579,7 +579,7 @@ c. List item 1
       <item>
         <title>Welcome to Jekyll-1!</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.
-&lt;img src=&quot;/img/slider-bg.jpg&quot; alt=&quot;A nice image&quot; /&gt;
+&lt;img src=&quot;/LearnWeb/img/slider-bg.jpg&quot; alt=&quot;A nice image&quot; /&gt;
 To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
@@ -596,8 +596,8 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 
 </description>
         <pubDate>Fri, 26 Feb 2016 21:01:03 +0600</pubDate>
-        <link>http://localhost:4000/php/2016/02/26/welcome-to-jekyll-2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/php/2016/02/26/welcome-to-jekyll-2.html</guid>
+        <link>http://localhost:4000/LearnWeb/php/2016/02/26/welcome-to-jekyll-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LearnWeb/php/2016/02/26/welcome-to-jekyll-2.html</guid>
         
         <category>php</category>
         
@@ -641,8 +641,8 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 &lt;p&gt;For more information on deploying Jekyll sites (and more options), check out the section on &lt;a href=&quot;http://jekyllrb.com/docs/deployment-methods/&quot; title=&quot;deployment methods&quot;&gt;deployment methods&lt;/a&gt; in Jekyll’s documentation.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Aug 2015 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/2015/08/01/deployment-options.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/08/01/deployment-options.html</guid>
+        <link>http://localhost:4000/LearnWeb/2015/08/01/deployment-options.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LearnWeb/2015/08/01/deployment-options.html</guid>
         
         <category>jekyll</category>
         
@@ -712,8 +712,8 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 &lt;p&gt;Place the files &lt;code class=&quot;highlighter-rouge&quot;&gt;type.scss&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;layout.scss&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;components.scss&lt;/code&gt; in the &lt;strong&gt;_sass&lt;/strong&gt; directory and Jekyll will do the rest!&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Jul 2015 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/2015/07/13/css.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/07/13/css.html</guid>
+        <link>http://localhost:4000/LearnWeb/2015/07/13/css.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LearnWeb/2015/07/13/css.html</guid>
         
         <category>php</category>
         
@@ -800,8 +800,8 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 &lt;p&gt;The files will then be processed, and the resulting file will be located in the same directory in the generated site. The file &lt;strong&gt;css/layout.scss&lt;/strong&gt; would generate &lt;strong&gt;css/layout.css&lt;/strong&gt; in the finished site.&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Jul 2015 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/html/2015/07/09/front-matter.html</link>
-        <guid isPermaLink="true">http://localhost:4000/html/2015/07/09/front-matter.html</guid>
+        <link>http://localhost:4000/LearnWeb/html/2015/07/09/front-matter.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LearnWeb/html/2015/07/09/front-matter.html</guid>
         
         <category>php</category>
         
@@ -1012,8 +1012,8 @@ This is as well.
 &lt;p&gt;For more information on Kramdown and for a more complete reference, visit Kramdown’s &lt;a href=&quot;http://kramdown.gettalong.org/index.html&quot; title=&quot;Kramdown&quot;&gt;project page&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Jun 2015 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/css/2015/06/29/markdown-basics.html</link>
-        <guid isPermaLink="true">http://localhost:4000/css/2015/06/29/markdown-basics.html</guid>
+        <link>http://localhost:4000/LearnWeb/css/2015/06/29/markdown-basics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LearnWeb/css/2015/06/29/markdown-basics.html</guid>
         
         <category>php</category>
         

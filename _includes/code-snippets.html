@@ -8,7 +8,7 @@
         {% if zz != empty %}
           {% for p in zz %}
             <div>
-              <a href="{{p.url}}" class="item">
+              <a href="{{site.baseurl}}{{p.url}}" class="item">
                 <img src="{{site.baseurl}}/images/{{tag[0]}}.png" alt="{{tag[0]}}" />
                 <span>{{p.title}}</span>
               </a>

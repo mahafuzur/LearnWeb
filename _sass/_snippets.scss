@@ -47,7 +47,7 @@
   z-index: 6;
 }
 .slick-prev{
-  background: url(/images/left-arrow.png) no-repeat center center;
+  background: url(#{$baseurl}/images/left-arrow.png) no-repeat center center;
   width: 45px;
   height: 70px;
   top: 50%;
@@ -55,7 +55,7 @@
   margin-top: -60px;
 }
 .slick-next{
-  background: url(/images/right-arrow.png) no-repeat center center;
+  background: url(#{$baseurl}/images/right-arrow.png) no-repeat center center;
   width: 45px;
   height: 70px;
   top: 50%;

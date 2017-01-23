@@ -1,6 +1,5 @@
-
 .site-header{
-  background: url(/images/header_bg.png);
+  background: url(#{$baseurl}/images/header_bg.png);
   border-bottom: 5px solid $brand-color1;
   h1{
     margin: 0;
