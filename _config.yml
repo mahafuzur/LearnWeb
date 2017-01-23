@@ -10,8 +10,9 @@ title: "Learn Web"
 logo: "Learn<span>Web</span>"
 email: mahafuzurrahaman1986@gmail.com
 description: "This site was created for learning the web development"
-baseurl: ""
-url: ""
+baseurl: "/LearnWeb"
+url: "https://mahafuzur.github.io"
+repository: "mahafuzur/LearnWeb"
 collections:
   portfolio:
     output: true
