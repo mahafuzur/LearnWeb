@@ -1,0 +1,64 @@
+#snippets_area{
+  padding: 20px 0;
+}
+
+.snippet-carousel{
+  margin-left: -40px;
+   div &:last-child{
+      margin-right: 0;
+  }
+
+  a.item{
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    transition: all 0.3s linear;
+    img{
+      width: 100%;
+    }
+    span{
+      position: absolute;
+      bottom: 0;
+      background: $brand-color1;
+      color: $brand-color;
+      padding: 5px;
+      left: 0;
+      right: 0;
+      transition: all 0.3s linear;
+    }
+    &:hover{
+      border: 10px solid $brand-color1;
+    }
+    &:hover > span{
+      bottom: 50%;
+      margin-bottom: -10px;
+    }
+  }
+}
+
+.slick-arrow{
+  background: transparent;
+  text-indent: -99999px;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  z-index: 6;
+}
+.slick-prev{
+  background: url(/images/left-arrow.png) no-repeat center center;
+  width: 45px;
+  height: 70px;
+  top: 50%;
+  left: -5%;
+  margin-top: -60px;
+}
+.slick-next{
+  background: url(/images/right-arrow.png) no-repeat center center;
+  width: 45px;
+  height: 70px;
+  top: 50%;
+  right: -10%;
+  margin-top: -60px;
+}

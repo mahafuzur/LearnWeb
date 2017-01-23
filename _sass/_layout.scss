@@ -1,0 +1,259 @@
+/**
+ * Site header
+ */
+.site-header {
+
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+
+    &,
+    &:visited {
+        color: $grey-color-dark;
+    }
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: $spacing-unit / 2;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+            margin-left: 20px;
+        }
+    }
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 5px solid $brand-color1;
+    padding: $spacing-unit 0;
+    padding-bottom: 0;
+    background: $brand-color2;
+    color: $brand-color;
+    font-size: 15px;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+    color: $brand-color1;
+}
+.footer-col{
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style-image:url(/images/list.png);
+    list-style-position: inside;
+  }
+  a{
+    color: $brand-color;
+    padding: 10px 0;
+    display: block;
+    padding-bottom: 2px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    &:hover {
+      border-bottom: 1px solid $brand-color1;
+    }
+  }
+}
+
+.footer-col-1{
+  width: 45%;
+  float: left;
+}
+.footer-col-2,
+.footer-col-3{
+  width: 22%;
+  float: right;;
+  margin-left: 5%;
+}
+.contac-info{
+  a{
+    display: inline-block;
+  }
+  .social-links{
+    margin: 20px 0;
+    a{
+      background: $brand-color1;
+      color: $brand-color;
+      border-radius: 100%;
+      padding: 0;
+      font-size: 25px;
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      margin-right: 5px;
+      &:hover{
+        background: transparentize($brand-color1, 0.3);
+      }
+    }
+  }
+}
+
+.copyrignt{
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid $brand-color1;
+  p{
+    margin: 0;
+  }
+  a{
+    color: $brand-color1;
+    &:hover{
+      color: $brand-color;
+    }
+  }
+}
+
+/**
+ * Page content
+ */
+// .page-content {
+//     padding: $spacing-unit 0;
+// }
+
+// .page-heading {
+//     font-size: 20px;
+// }
+//
+// .post-list {
+//     margin-left: 0;
+//     list-style: none;
+//
+//     > li {
+//         margin-bottom: $spacing-unit;
+//     }
+// }
+//
+// .post-meta {
+//     font-size: $small-font-size;
+//     color: #aeaeae;
+// }
+//
+// .post-link {
+//     display: block;
+//     font-size: 24px;
+// }
+//
+//
+//
+// /**
+//  * Posts
+//  */
+// .post-header {
+//     margin-bottom: $spacing-unit;
+// }
+//
+// .post-title {
+//     font-size: 42px;
+//     letter-spacing: -1px;
+//     line-height: 1;
+//
+//     @include media-query($on-laptop) {
+//         font-size: 36px;
+//     }
+// }
+//
+// .post-content {
+//     margin-bottom: $spacing-unit;
+//
+//     h2 {
+//         font-size: 32px;
+//
+//         @include media-query($on-laptop) {
+//             font-size: 28px;
+//         }
+//     }
+//
+//     h3 {
+//         font-size: 26px;
+//
+//         @include media-query($on-laptop) {
+//             font-size: 22px;
+//         }
+//     }
+//
+//     h4 {
+//         font-size: 20px;
+//
+//         @include media-query($on-laptop) {
+//             font-size: 18px;
+//         }
+//     }
+// }

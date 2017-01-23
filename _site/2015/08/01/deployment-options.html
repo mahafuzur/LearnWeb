@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Deployment Options</title>
+  <meta name="description" content="Once you’ve finished building your Jekyll site you’ll need to decide where and how you want to deploy it. Since Jekyll builds static content you can serve it...">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/slick.css">
+  <link rel="canonical" href="http://localhost:4000/2015/08/01/deployment-options.html">
+  <link rel="alternate" type="application/rss+xml" title="Learn Web" href="http://localhost:4000/feed.xml">
+  <script src="/js/modernizr.custom.28468.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <h1>
+      <a class="site-title" href="/">Learn<span>Web</span></a><i class="fa fa-graduation-cap"></i>
+    </h1>
+
+    <nav class="site-nav">
+
+      <ul id="navigation">
+  
+    <li >
+      <a href="/">Home</a>
+      
+    </li>
+  
+    <li >
+      <a href="/portfolio.html">Portfolio</a>
+      
+    </li>
+  
+    <li >
+      <a href="/blog/index.html">Blog</a>
+      
+    </li>
+  
+    <li >
+      <a href="#">Tutorial</a>
+      
+      <ul id="dropdown">
+        
+        <li><a href="/tutorial/html.html">Html</a></li>
+        
+        <li><a href="/tutorial/css.html">Css</a></li>
+        
+        <li><a href="/tutorial/js.html">JavaScript</a></li>
+        
+        <li><a href="/tutorial/php.html">Php</a></li>
+        
+        <li><a href="/tutorial/wordpress.html">Wordpress</a></li>
+        
+      </ul>
+      
+    </li>
+  
+    <li >
+      <a href="/snippets.html">Snippets</a>
+      
+    </li>
+  
+    <li >
+      <a href="/resources.html">Resources</a>
+      
+    </li>
+  
+    <li >
+      <a href="/about-me.html">About me</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+
+
+      <div class="wrapper">
+
+        <article class="single-post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="single-post-header">
+    <h1 class="post-title" itemprop="name headline">Deployment Options</h1>
+    <p class="post-meta">
+      By: <a href=""></a>,
+      Catagory: ,
+      August 01, 2015
+    </p>
+  </header>
+
+  <div class="single-post-content" itemprop="articleBody">
+    <p>Once you’ve finished building your Jekyll site you’ll need to decide where and how you want to deploy it. Since Jekyll builds static content you can serve it almost anywhere. There are no server-side dependencies, CMS installations, database administrators, or server stacks to worry about. If the server can handle HTML, CSS, and JavaScript, it can serve your site. With that in mind let’s take a look at some of the most common options for deploying Jekyll sites.</p>
+
+<p>###FTP/SFTP</p>
+
+<p>Almost all hosting companies allow you to upload content via FTP or SFTP. Simply use a FTP client (such as <a href="https://filezilla-project.org/" title="Filezilla">Filezilla</a>) to upload the contents of your <strong>_site</strong> directory to the <strong>www</strong> or <strong>public_html</strong> directory of your hosting server. One downside to this method is the manual nature of updating your site. When files change you’ll need to manually overwrite your remote files. For larger sites this can be time-consuming and prone to errors.</p>
+
+<p>One option for enhancing FTP deployment is to use a Git-integrated FTP client like <a href="https://github.com/git-ftp/git-ftp" title="git-ftp">git-ftp</a>. This allows you to bring version control into your deployment workflow and only upload the files that have changed.</p>
+
+<p>###Git</p>
+
+<p>Speaking of Git, if you’re using it to source-control your site, you can set it up to push to your web server when it’s time for deployment. To do this you’ll need to set up a post-update hook on your remote server. You’ll also, of course, need Git installed on your server and SSH access. This method of deployment is a little more technical than others, so you’ll need to be comfortable with Git, the command line interface, and writing basic scripts. <a href="http://nicolasgallagher.com/simple-git-deployment-strategy-for-static-sites/" title="Git for static sites">Nicolas Gallagher wrote one of the best posts</a> on the subject that I’ve seen, though a quick Google search will return several articles detailing versions of this workflow.</p>
+
+<p>###Deployment Web Services</p>
+
+<p>Several online services offer deployment workflows for apps and sites. Most offer tiers of services that range from free to monthly fees based on the size and number of sites you’ll be updating. While many of their services aren’t really necessary for smaller static sites, the convenience of having your deployment automated with a single click is pretty nice, and the extra features can come in handy as your site grows. Check out <a href="http://beanstalkapp.com/" title="Beanstalk">Beanstalk</a>, <a href="http://deploybot.com/" title="Deploybot">DeployBot</a>, <a href="https://www.netlify.com/" title="Netlify">Netlify</a> and <a href="https://travis-ci.org/" title="Travis CI">Travis CI</a> for a good idea of how these services work and if they’re right for you.</p>
+
+<p>###Github</p>
+
+<p>Github uses Jekyll to power it’s Github Pages feature, so it’s only natural that deploying Jekyll sites through Github is quick and easy. You can even host your personal or project site for free on Github. You have two options for serving your site: user/organization or as a project page. Each Github user gets one free user/organization Github Pages site, and unlimited project pages. Organization pages are served as the “home” site for the user, so it’s served at <code class="highlighter-rouge">username.github.io.</code> Project pages are served as subdomains, so they would be served at <code class="highlighter-rouge">username.github.io/project-name.</code> The only real difference between the two methods is how you format relative links, as project pages have the project name directory as part of their base URL. You can even redirect a custom domain to your Github Pages site, which makes it a very attractive choice for hosting personal blogs and smaller sites.</p>
+
+<p>The workflow for deploying to Github Pages is simple. Login to your Github account, create a new repo, and then point your local repo to use the new Github repo as its remote. Create a new branch called <code class="highlighter-rouge">gh-pages</code> and push everything except the <strong>_site</strong> directory to your new Github repo. Github will detect the Jekyll site, build it, and serve the site at the appropriate URL. From there, updating the site is as simple as writing a new Markdown file and making a push.</p>
+
+<p>###More information</p>
+
+<p>For more information on deploying Jekyll sites (and more options), check out the section on <a href="http://jekyllrb.com/docs/deployment-methods/" title="deployment methods">deployment methods</a> in Jekyll’s documentation.</p>
+
+  </div>
+  <hr>
+  <p class="tag-list">
+    
+      <a href=""><i class="fa fa-tag"></i> jekyll</a>
+    ,
+    
+      <a href=""><i class="fa fa-tag"></i> git</a>
+    
+    
+  </p>
+  <div class="pagination">
+    <ul>
+      
+      <li><a href="/2015/07/13/css.html"><< Back</a></li>
+      
+      
+      <li><a href="/php/2016/02/26/welcome-to-jekyll-2.html">Next >></a></li>
+      
+    </ul>
+  </div>
+</article>
+
+
+      </div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col footer-col-1">
+      <div class="contac-info ">
+  <h2 class="footer-heading">Contact Info</h2>
+  <address>
+    <strong>Email address:</strong> <a href="mailto:mahafuzurrahaman1986@gmail.com">mahafuzurrahaman1986@gmail.com</a>,<br>
+    <strong>Country:</strong> Bangladesh
+  </address>
+  <div class="social-links">
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-youtube"></i></a>
+  <a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-pinterest"></i></a>
+</div>
+
+</div>
+
+    </div>
+
+    <div class="footer-col footer-col-2">
+      <h3 class="footer-heading">More Tutorial</h3>
+<ul>
+  <li><a href="/tutorial/html.html">HTML Tutorial</a></li>
+  <li><a href="/tutorial/css.html">Css Tutorial</a></li>
+  <li><a href="/tutorial/js.html">Js Tutorial</a></li>
+  <li><a href="/tutorial/php.html">Php Tutorial</a></li>
+  <li><a href="/tutorial/wordpress.html">Wordpress Tutorial</a></li>
+  <li><a href="/tutorial/jekyll.html">Jekyll Tutorial</a></li>
+</ul>
+
+    </div>
+
+    <div class="footer-col footer-col-3">
+      <h3 class="footer-heading">External Link</h3>
+<ul>
+  <li><a href="http://jekyllrb.com/">Jekyll site</a></li>
+  <li><a href="https://daringfireball.net/projects/markdown/">Markdown</a></li>
+  <li><a href="http://www.w3schools.com/">W3school</a></li>
+  <li><a href="https://css-tricks.com/">Css-tips</a></li>
+  <li><a href="https://www.codecourse.com/">Code Course</a></li>
+  <li><a href="https://www.youtube.com/user/DevTipsForDesigners">DevTipsForDesigners</a></li>
+</ul>
+</div>
+
+  </div>
+  <div class="copyrignt">
+    <p>
+      Copyrignt &copy; 2016 - All Right Resurved <a href="#">Md. Mahafuzur Rahaman</a>.
+    </p>
+  </div>
+</footer>
+
+<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.cslider.js"></script>
+<script type="text/javascript" src="/js/slick.min.js"></script>
+<script type="text/javascript" src="/js/functions.js"></script>
+
+
+  </body>
+
+</html>

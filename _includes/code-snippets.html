@@ -1,0 +1,21 @@
+<div id="snippets_area">
+  <div class="wrapper">
+    <h2 class="section-title">Code Snippets</h2>
+    <div class="snippet-carousel">
+      {% assign sorted_tags = site.tags | sort %}
+      {% for tag in sorted_tags %}
+      {% assign zz = tag[1] | where: "type", "snippets" | sort %}
+        {% if zz != empty %}
+          {% for p in zz %}
+            <div>
+              <a href="{{p.url}}" class="item">
+                <img src="/images/{{tag[0]}}.png" alt="{{tag[0]}}" />
+                <span>{{p.title}}</span>
+              </a>
+            </div>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

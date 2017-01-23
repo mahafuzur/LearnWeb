@@ -1,0 +1,60 @@
+
+## site main navigation
+menu:
+  - title: "Home"
+    url: "/"
+    order: 1
+  - title: "Portfolio"
+    url: "/portfolio.html"
+    order: 2
+  - title: "Blog"
+    url: "/blog/index.html"
+    order: 3
+  - title: "Tutorial"
+    url: "#"
+    order: 4
+    dropdown:
+      - title: "Html"
+        url: "/tutorial/html.html"
+      - title: "Css"
+        url: "/tutorial/css.html"
+      - title: "JavaScript"
+        url: "/tutorial/js.html"
+      - title: "Php"
+        url: "/tutorial/php.html"
+      - title: "Wordpress"
+        url: "/tutorial/wordpress.html"
+  - title: "Snippets"
+    url: "/snippets.html"
+    order: 5
+  - title: "Resources"
+    url: "/resources.html"
+    order: 6
+  - title: "About me"
+    url: "/about-me.html"
+    order: 7
+
+
+
+## Slider content
+slider:
+  - title: "HTML Tutorial"
+    desc: "Learn your starting web development right here without any cost. Here you find lots of HTML tutorial totally free."
+    btn_url: "tutorial/html.html"
+    image: "slide_html.png"
+  - title: "CSS Tutorial"
+    desc: "Learn your starting web development right here without any cost. Here you find lots of CSS tutorial totally free."
+    btn_url: "tutorial/css.html"
+    image: "css3.png"
+  - title: "JS Tutorial"
+    desc: "Learn your starting web development right here without any cost. Here you find lots of JavaScript tutorial totally free."
+    btn_url: "tutorial/js.html"
+    image: "1.png"
+  - title: "PHP Tutorial"
+    desc: "Learn your starting web development right here without any cost. Here you find lots of PHP tutorial totally free."
+    btn_url: "tutorial/php.html"
+    image: "2.png"
+  - title: "Wordpress Tutorial"
+    desc: "Learn your starting web development right here without any cost. Here you find lots of Wordpress tutorial totally free."
+    btn_url: "tutorial/wordpress.html"
+    image: "3.png"

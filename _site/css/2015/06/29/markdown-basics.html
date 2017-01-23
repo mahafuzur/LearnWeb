@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Markdown Basics</title>
+  <meta name="description" content="In Jekyll, content for pages and posts can be written in either HTML or Markdown. Although there will be times that HTML is the more appropriate choice, Mark...">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/slick.css">
+  <link rel="canonical" href="http://localhost:4000/css/2015/06/29/markdown-basics.html">
+  <link rel="alternate" type="application/rss+xml" title="Learn Web" href="http://localhost:4000/feed.xml">
+  <script src="/js/modernizr.custom.28468.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <h1>
+      <a class="site-title" href="/">Learn<span>Web</span></a><i class="fa fa-graduation-cap"></i>
+    </h1>
+
+    <nav class="site-nav">
+
+      <ul id="navigation">
+  
+    <li >
+      <a href="/">Home</a>
+      
+    </li>
+  
+    <li >
+      <a href="/portfolio.html">Portfolio</a>
+      
+    </li>
+  
+    <li >
+      <a href="/blog/index.html">Blog</a>
+      
+    </li>
+  
+    <li >
+      <a href="#">Tutorial</a>
+      
+      <ul id="dropdown">
+        
+        <li><a href="/tutorial/html.html">Html</a></li>
+        
+        <li><a href="/tutorial/css.html">Css</a></li>
+        
+        <li><a href="/tutorial/js.html">JavaScript</a></li>
+        
+        <li><a href="/tutorial/php.html">Php</a></li>
+        
+        <li><a href="/tutorial/wordpress.html">Wordpress</a></li>
+        
+      </ul>
+      
+    </li>
+  
+    <li >
+      <a href="/snippets.html">Snippets</a>
+      
+    </li>
+  
+    <li >
+      <a href="/resources.html">Resources</a>
+      
+    </li>
+  
+    <li >
+      <a href="/about-me.html">About me</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+
+
+      <div class="wrapper">
+
+        <article class="single-post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="single-post-header">
+    <h1 class="post-title" itemprop="name headline">Markdown Basics</h1>
+    <p class="post-meta">
+      By: <a href=""></a>,
+      Catagory: 
+      <a href="/css/2015/06/29/markdown-basics.html">css</a>
+      ,
+      June 29, 2015
+    </p>
+  </header>
+
+  <div class="single-post-content" itemprop="articleBody">
+    <p>In Jekyll, content for pages and posts can be written in either HTML or Markdown. Although there will be times that HTML is the more appropriate choice, Markdown provides a more natural writing environment that makes blogging easier and less of a chore. In this post we’ll examine how Jekyll uses Markdown and cover some basic Markdown syntax.</p>
+
+<p>If you’ve never used it before, Markdown is a text-to-HTML converter that let’s you write text naturally in plain text format and then convert it to valid HTML. To learn more about it, read John Gruber’s post introducing Markdown on <a href="http://daringfireball.net/projects/markdown/" title="Introducing Markdown">Daring Fireball</a>.</p>
+
+<p>Jekyll supports multiple Markdown rendering engines and allows you to specify which engine to use in the site’s configuration. Currently Jekyll supports <a href="http://kramdown.gettalong.org/index.html" title="Kramdown">Kramdown</a>, <a href="https://github.com/vmg/redcarpet" title="Redcarpet">Redcarpet</a>, and <a href="http://dafoster.net/projects/rdiscount/" title="Rdiscount">RDiscount</a>, although you’re free to use any rendering engine you have installed or even write your own!</p>
+
+<p>To specify a rendering engine, simply add this line to your <strong>_config,yml</strong> file:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>markdown: kramdown
+</code></pre>
+</div>
+
+<p>For the most part, the rendering engines are the same, although they do have subtle differences in syntax and element support. Currently Kramdown is the default Markdown renderer for Jekyll. Let’s take a look at some basic Kramdown syntax.</p>
+
+<p>The following passage:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>#My main heading
+{: .intro }
+
+This is my initial paragraph. In it I’d like to provide a link to the [Jekyll homepage](http://jekyllrb.com/ "Jekyll"). I want to add **bold** and *italic* formatting to text as well using the `strong` and `emphasis` tags.
+
+This is another paragraph. I’d like to follow it with an unordered list.
+
+* item 1
+* item 2
+* item 3
+
+</code></pre>
+</div>
+
+<p>Would be rendered in HTML as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"intro"</span><span class="nt">&gt;</span>My main heading<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p&gt;</span>This is my initial paragraph. In it I’d like to provide a link to the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://jekyllrb.com/"</span> <span class="na">title=</span><span class="s">"Jekyll"</span><span class="nt">&gt;</span>Jekyll homepage<span class="nt">&lt;/a&gt;</span>. I want to add <span class="nt">&lt;strong&gt;</span>bold<span class="nt">&lt;/strong&gt;</span> and <span class="nt">&lt;em&gt;</span>italic<span class="nt">&lt;/em&gt;</span> formatting to text as well using the <span class="nt">&lt;code&gt;</span>strong<span class="nt">&lt;/code&gt;</span> and <span class="nt">&lt;code&gt;</span>emphasis<span class="nt">&lt;/code&gt;</span> tags.<span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;p&gt;</span>This is another paragraph. I’d like to follow it with an unordered list.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;ul&gt;</span>
+        <span class="nt">&lt;li&gt;</span>item 1<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>item 2<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>item 3<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span></code></pre></figure>
+
+<p>As you can see, Markdown frees you from many of the structural restraints that would make it difficult to author something like a blog post using HTML. To write two paragraphs, for example, you simply write two paragraphs, no &lt;p&gt; tags or special formatting required. Let’s take a quick look at how to format some of the basic HTML elements in Kramdown.</p>
+
+<p>###Paragraphs</p>
+
+<p>Consecutive lines of text are formatted as a single paragraph. As a block level element, you must to add a blank line after it to separate it from other block-level elements.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>This is a paragraph.
+
+This is as well.
+</code></pre>
+</div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>This is a paragraph.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;</span>This is as well.<span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+<p>###Headings</p>
+
+<p>There are multiple ways to format headings in Kramdown. The easiest is to preceed the heading with hash characters (<strong>#</strong>) equal to the heading level. An <code class="highlighter-rouge">h1</code> for example, would be written as <code class="highlighter-rouge">#heading 1</code>.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># This is a heading 1
+
+## This is a heading 2
+
+### This is a heading 3
+</code></pre>
+</div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1&gt;</span>This is a heading 1<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;h2&gt;</span>This is a heading 2<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;h3&gt;</span>This is a heading 3<span class="nt">&lt;/h3&gt;</span></code></pre></figure>
+
+<p>###Blockquotes</p>
+
+<p>Blockquotes are formatted using the “greater than” character (<strong>&gt;</strong>) at the start of the blockquote. Text inside a blockquote is wrapped with a paragraph.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; This is a blockquote.
+</code></pre>
+</div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;blockquote&gt;</span>
+  <span class="nt">&lt;p&gt;</span>This is a blockquote.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/blockquote&gt;</span></code></pre></figure>
+
+<p>###Ordered Lists</p>
+
+<p>To create an ordered list, simply type a list started by a number followed by a period. Each list item should be on a separate line. Nested lists are created by indenting a list underneath an existing list item.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>1. This is the first item
+2. This is the second item
+3. This is the third item
+    1. This is a nested list
+    2. More nested list
+4. This is the fourth item.
+</code></pre>
+</div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ol&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the first item<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the second item<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the third item
+        <span class="nt">&lt;ol&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is a nested list<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>More nested list<span class="nt">&lt;/li&gt;</span>
+          <span class="nt">&lt;/ol&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the fourth item.<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span></code></pre></figure>
+
+<p>###Block-level attributes</p>
+
+<p>Often you may wish to assign attributes to block-level elements. To do this, follow the element with a <em>block inline attribute list</em> (block IAL). A block IAL consists of a left curly brace, followed by a colon, the attribute definitions and a right curly brace.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># Apply the class “main” to this heading
+{: .main}
+</code></pre>
+</div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"main"</span><span class="nt">&gt;</span>Apply the class “main” to this heading<span class="nt">&lt;/h1&gt;</span></code></pre></figure>
+
+<p>Classes are applied with the syntax <code class="highlighter-rouge">.className</code> and IDs with <code class="highlighter-rouge">#ID-name</code>. For any other attribute you simply write the desired syntax:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># Another heading with the ‘role’ attribute applied
+{: role="banner"}
+</code></pre>
+</div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1</span> <span class="na">role=</span><span class="s">"banner"</span><span class="nt">&gt;</span>Another heading with the ‘role’ attribute applied
+<span class="nt">&lt;/h1&gt;</span></code></pre></figure>
+
+<p>For multiple attributes, create a space-separated list inside the blockIAL.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># This heading has two classes and one ID applied
+{: .class1 .class2 #ID-1}
+</code></pre>
+</div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"class1 class2"</span> <span class="na">id=</span><span class="s">"ID-1"</span><span class="nt">&gt;</span>This heading has two classes and one ID applied<span class="nt">&lt;/h1&gt;</span></code></pre></figure>
+
+<p>###Inline formatting</p>
+
+<p>Emphasis can be added to text by surrounding the text with either asterisks or underscores. This will result in wrapping the content in either the <code class="highlighter-rouge">strong</code> or <code class="highlighter-rouge">emphasis</code> tag depending upon how many are used:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>I want to wrap **this text** in a strong tag and *this text* in an emphasis tag.
+</code></pre>
+</div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>I want to wrap <span class="nt">&lt;strong&gt;</span>this text<span class="nt">&lt;/strong&gt;</span> in a strong tag and <span class="nt">&lt;em&gt;</span>this text<span class="nt">&lt;/em&gt;</span> in an emphasis tag.<span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+<p>###Links</p>
+
+<p>You can create a link by surrounding the text with square brackets and then directly following it with the link URL in parentheses. To add a title attribute, add the desired title in straight quotes (“ “) after the link URL.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>I usually search using [Google](https://www.google.com "Google").
+</code></pre>
+</div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>I usually search using <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://www.google.com"</span> <span class="na">title=</span><span class="s">"Google"</span><span class="nt">&gt;</span>Google<span class="nt">&lt;/a&gt;</span>.<span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+<p>###Images</p>
+
+<p>Images are similar to links, but use an exclamation mark before the square brackets. The link text will become the alternative text of the image and the link URL specifies the image source.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>![My dog](/images/Baxter.jpg)
+</code></pre>
+</div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/Baxter.jpg"</span> <span class="na">alt=</span><span class="s">"My dog"</span><span class="nt">&gt;</span></code></pre></figure>
+
+<p>As you can see, Markdown is simple to write, and once you’ve learned the basic formatting options, generating semantic HTML is fairly simple. One of the most powerful Markdown features is the ability to nest HTML directly inside a Markdown document. That way if you’re unable to use Markdown to get exactly the HTML you need, you can simply inject HTML into the document and then continue using Markdown.</p>
+
+<p>For more information on Kramdown and for a more complete reference, visit Kramdown’s <a href="http://kramdown.gettalong.org/index.html" title="Kramdown">project page</a>.</p>
+
+  </div>
+  <hr>
+  <p class="tag-list">
+    
+      <a href=""><i class="fa fa-tag"></i> php</a>
+    ,
+    
+      <a href=""><i class="fa fa-tag"></i> wordpress</a>
+    ,
+    
+      <a href=""><i class="fa fa-tag"></i> css</a>
+    ,
+    
+      <a href=""><i class="fa fa-tag"></i> tips</a>
+    
+    
+  </p>
+  <div class="pagination">
+    <ul>
+      
+      <li><a href="/js/2015/06/07/liquid-syntax.html"><< Back</a></li>
+      
+      
+      <li><a href="/html/2015/07/09/front-matter.html">Next >></a></li>
+      
+    </ul>
+  </div>
+</article>
+
+
+      </div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col footer-col-1">
+      <div class="contac-info ">
+  <h2 class="footer-heading">Contact Info</h2>
+  <address>
+    <strong>Email address:</strong> <a href="mailto:mahafuzurrahaman1986@gmail.com">mahafuzurrahaman1986@gmail.com</a>,<br>
+    <strong>Country:</strong> Bangladesh
+  </address>
+  <div class="social-links">
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-youtube"></i></a>
+  <a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-pinterest"></i></a>
+</div>
+
+</div>
+
+    </div>
+
+    <div class="footer-col footer-col-2">
+      <h3 class="footer-heading">More Tutorial</h3>
+<ul>
+  <li><a href="/tutorial/html.html">HTML Tutorial</a></li>
+  <li><a href="/tutorial/css.html">Css Tutorial</a></li>
+  <li><a href="/tutorial/js.html">Js Tutorial</a></li>
+  <li><a href="/tutorial/php.html">Php Tutorial</a></li>
+  <li><a href="/tutorial/wordpress.html">Wordpress Tutorial</a></li>
+  <li><a href="/tutorial/jekyll.html">Jekyll Tutorial</a></li>
+</ul>
+
+    </div>
+
+    <div class="footer-col footer-col-3">
+      <h3 class="footer-heading">External Link</h3>
+<ul>
+  <li><a href="http://jekyllrb.com/">Jekyll site</a></li>
+  <li><a href="https://daringfireball.net/projects/markdown/">Markdown</a></li>
+  <li><a href="http://www.w3schools.com/">W3school</a></li>
+  <li><a href="https://css-tricks.com/">Css-tips</a></li>
+  <li><a href="https://www.codecourse.com/">Code Course</a></li>
+  <li><a href="https://www.youtube.com/user/DevTipsForDesigners">DevTipsForDesigners</a></li>
+</ul>
+</div>
+
+  </div>
+  <div class="copyrignt">
+    <p>
+      Copyrignt &copy; 2016 - All Right Resurved <a href="#">Md. Mahafuzur Rahaman</a>.
+    </p>
+  </div>
+</footer>
+
+<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.cslider.js"></script>
+<script type="text/javascript" src="/js/slick.min.js"></script>
+<script type="text/javascript" src="/js/functions.js"></script>
+
+
+  </body>
+
+</html>

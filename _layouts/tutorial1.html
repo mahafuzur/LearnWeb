@@ -1,0 +1,28 @@
+---
+layout: page
+---
+{% assign tutorials = site.categories.[page.type]%}
+
+<section class="tutorial">
+  <ul class="tutorial-list">
+    {% for tutorial in tutorials %}
+      <li>
+        <h3><a href="{{ tutorial.url }}">{{ tutorial.title }}</a></h3>
+        <p class="tutorial-meta">
+          By: <a href="{{tutorial.author}}">{{tutorial.author}}</a>,
+          Catagory: {% for cat in tutorial.categories %}
+          <a href="{{tutorial.url}}">{{cat}}</a>{% unless forloop.last%},{% endunless %}
+          {% endfor %},
+          {{tutorial.date | date: '%B %d, %Y'}}
+        </p>
+        <p>{{tutorial.excerpt | truncate: 100 | strip_html | strip_newlines}} <a href="{{tutorial.url}}">Read More >></a></p>
+        <p class="tag-list">
+          {% for tag in tutorial.tags %}
+            <a href="/tag/{{tag | replace:" ", "-" }}.html"><i class="fa fa-tag"></i> {{tag}}</a>
+          {% unless forloop.last%},{% endunless %}
+          {% endfor %}
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

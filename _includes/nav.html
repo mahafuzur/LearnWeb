@@ -1,0 +1,14 @@
+<ul id="navigation">
+  {% for item in site.data.settings.menu %}
+    <li {% if page.url == item.url %}class="active"{% endif %}>
+      <a href="{{item.url}}">{{ item.title }}</a>
+      {% if item.dropdown %}
+      <ul id="dropdown">
+        {% for drop in item.dropdown %}
+        <li><a href="{{drop.url}}">{{drop.title}}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

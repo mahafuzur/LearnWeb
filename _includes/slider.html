@@ -1,0 +1,29 @@
+{% if page.url == "/"%}
+<div id="da-slider" class="da-slider">
+
+{% for item in site.data.settings.slider %}
+  <div class="da-slide">
+    <h2>{{item.title}}</h2>
+    <p>{{item.desc}}</p>
+    <a href="{{item.btn_url}}" class="da-link">Read more</a>
+    <div class="da-img">
+      <img src="/images/{{item.image}}" alt="{{item.title}}" />
+    </div>
+  </div>
+{% endfor %}
+
+  <nav class="da-arrows">
+    <span class="da-arrows-prev"></span>
+    <span class="da-arrows-next"></span>
+  </nav>
+</div>
+{% else %}
+<div class="globel-slider" style="background: transparent url(/images/{{page.image}});">
+  <div class="slider-content-box">
+    <div class="slider-content">
+      <h2>{{page.title}}</h2>
+      <p>{{page.desc}}</p>
+    </div>
+  </div>
+</div>
+{% endif %}

@@ -1,0 +1,15 @@
+---
+layout: page
+title: Snippets
+image: slider_bg.jpg
+---
+
+<section class="tutorial">
+  <ul class="tutorial-list">
+    {% for post in site.posts %}
+    {% if post.type == 'snippets' %}
+      {% include page-loop.html %}
+    {% endif %}
+    {% endfor %}
+  </ul>
+</section>

@@ -1,0 +1,19 @@
+<div id="portfolio_area">
+  {% if page.url == "/"%}
+  <h2 class="section-title">Portfolio</h2>
+    <div class="portfolio_box">
+    {% for item in site.portfolio limit: 8 %}
+      {% include single-portfolio.html %}
+    {% endfor %}
+    </div>
+
+
+    {% else %}
+    <div class="portfolio_box">
+    {% for item in site.portfolio %}
+      {% include single-portfolio.html %}
+    {% endfor %}
+    </div>
+
+    {% endif %}
+</div>

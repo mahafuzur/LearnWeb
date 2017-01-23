@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+
+<section class="tutorial">
+  <ul class="tutorial-list">
+    {% for post in site.posts %}
+    {% if post.category == page.type %}
+      {% include page-loop.html %}
+    {% endif %}
+    {% endfor %}
+  </ul>
+</section>

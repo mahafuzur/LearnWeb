@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="portfolio">
+
+  <header class="portfolio-header">
+    <h2 class="portfolio-title">{{ page.title }}</h2>
+    <p>
+      <strong>Designe by:</strong> {{page.design_author}},
+      <strong>Developed by:</strong> {{page.developed_author}}
+    </p>
+  </header>
+
+  <div class="portfolio-content">
+    {{ content }}
+  </div>
+
+  <div class="pagination">
+    <ul>
+      {% if page.previous.url %}
+      <li><a href="{{page.previous.url}}"><< Back</a></li>
+      {% endif %}
+      {% if page.next.url %}
+      <li><a href="{{page.next.url}}">Next >></a></li>
+      {% endif %}
+    </ul>
+  </div>
+
+</article>
