@@ -7,7 +7,7 @@
     <p>{{item.desc}}</p>
     <a href="{{item.btn_url}}" class="da-link">Read more</a>
     <div class="da-img">
-      <img src="/images/{{item.image}}" alt="{{item.title}}" />
+      <img src="{{site.baseurl}}/images/{{item.image}}" alt="{{item.title}}" />
     </div>
   </div>
 {% endfor %}
@@ -18,7 +18,7 @@
   </nav>
 </div>
 {% else %}
-<div class="globel-slider" style="background: transparent url(/images/{{page.image}});">
+<div class="globel-slider" style="background: transparent url({{site.baseurl}}/images/{{page.image}});">
   <div class="slider-content-box">
     <div class="slider-content">
       <h2>{{page.title}}</h2>

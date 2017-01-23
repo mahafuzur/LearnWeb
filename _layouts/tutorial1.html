@@ -18,7 +18,7 @@ layout: page
         <p>{{tutorial.excerpt | truncate: 100 | strip_html | strip_newlines}} <a href="{{tutorial.url}}">Read More >></a></p>
         <p class="tag-list">
           {% for tag in tutorial.tags %}
-            <a href="/tag/{{tag | replace:" ", "-" }}.html"><i class="fa fa-tag"></i> {{tag}}</a>
+            <a href="{{site.baseurl}}/tag/{{tag | replace:" ", "-" }}.html"><i class="fa fa-tag"></i> {{tag}}</a>
           {% unless forloop.last%},{% endunless %}
           {% endfor %}
         </p>
