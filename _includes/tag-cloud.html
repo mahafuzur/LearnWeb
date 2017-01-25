@@ -6,7 +6,7 @@
     	{% assign sortedTags = site_tags | split: "," | sort %}
 
     	{% for tag in sortedTags %}
-    	<li><a href="{{site.baseurl}}/blog/tag/{{tag | replace:' ','-'}}.html">{{tag}} [{{site.tags[tag].size}}]</a></li>
+    	<li><a href="{{site.baseurl}}/blog/tags.html#{{tag}}">{{tag}} [{{site.tags[tag].size}}]</a></li>
     	{% endfor %}
     	</ul>
     </div>

@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll html!"
+title:  "Welcome to Jekyll!"
 date:   2015-02-15
 image: "featured-post.jpg"
 author: "Monir"
-tags: jekyll js
+tags: jekyll liquid
 category: html
-type: snippets
+type: tutorial
 featured: true
 ---
 

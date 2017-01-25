@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Exploring Jekyll"
-date:   2015-04-23
+title: "Exploring Jekyll"
+date: 2015-04-23
 type: snippets
-tags: jekyll css git
+tags: jekyll git
+category: jekyll
 ---
 Once Jekyll is installed you can begin to explore its functionality. In this post we’ll take a closer look at Jekyll’s default boilerplate site and discuss how you can use it to learn more about Jekyll.
 

@@ -5,8 +5,8 @@
     <description>This site was created for learning the web development</description>
     <link>http://localhost:4000/LearnWeb/</link>
     <atom:link href="http://localhost:4000/LearnWeb/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Jan 2017 23:20:49 +0600</pubDate>
-    <lastBuildDate>Mon, 23 Jan 2017 23:20:49 +0600</lastBuildDate>
+    <pubDate>Wed, 25 Jan 2017 23:22:29 +0600</pubDate>
+    <lastBuildDate>Wed, 25 Jan 2017 23:22:29 +0600</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -267,15 +267,17 @@ c. List item 1
 		
 
 		
-			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#css&quot;&amp;gt;css [7]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#css&quot;&amp;gt;css [5]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
-			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#git&quot;&amp;gt;git [2]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#git&quot;&amp;gt;git [3]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
 			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#html&quot;&amp;gt;html [2]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
-			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#jekyll&quot;&amp;gt;jekyll [7]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#jekyll&quot;&amp;gt;jekyll [6]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
-			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#js&quot;&amp;gt;js [3]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#js&quot;&amp;gt;js [2]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+        
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#liquid&quot;&amp;gt;liquid [1]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
 			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#php&quot;&amp;gt;php [5]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
@@ -330,16 +332,6 @@ c. List item 1
 		&amp;lt;/li&amp;gt;
 
 		
-
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 30, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/04/30/basic-commands.html&quot; title=&quot;Basic Commands&quot;&amp;gt;Basic Commands&amp;lt;/a&amp;gt;
-		&amp;lt;/li&amp;gt;
-
-		
-
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 23, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/04/23/exploring-jekyll.html&quot; title=&quot;Exploring Jekyll&quot;&amp;gt;Exploring Jekyll&amp;lt;/a&amp;gt;
-		&amp;lt;/li&amp;gt;
-
-		
 		&amp;lt;/ul&amp;gt;
 	&amp;lt;/div&amp;gt;
 
@@ -353,7 +345,12 @@ c. List item 1
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 23, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/04/23/exploring-jekyll.html&quot; title=&quot;Exploring Jekyll&quot;&amp;gt;Exploring Jekyll&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 30, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/04/30/basic-commands.html&quot; title=&quot;Basic Commands&quot;&amp;gt;Basic Commands&amp;lt;/a&amp;gt;
+		&amp;lt;/li&amp;gt;
+
+		
+
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 23, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/jekyll/2015/04/23/exploring-jekyll.html&quot; title=&quot;Exploring Jekyll&quot;&amp;gt;Exploring Jekyll&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
@@ -402,17 +399,12 @@ c. List item 1
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 30, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/04/30/basic-commands.html&quot; title=&quot;Basic Commands&quot;&amp;gt;Basic Commands&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 23, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/jekyll/2015/04/23/exploring-jekyll.html&quot; title=&quot;Exploring Jekyll&quot;&amp;gt;Exploring Jekyll&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Apr 23, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/2015/04/23/exploring-jekyll.html&quot; title=&quot;Exploring Jekyll&quot;&amp;gt;Exploring Jekyll&amp;lt;/a&amp;gt;
-		&amp;lt;/li&amp;gt;
-
-		
-
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 15, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/html/2015/02/15/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll html!&quot;&amp;gt;Welcome to Jekyll html!&amp;lt;/a&amp;gt;
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 15, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/html/2015/02/15/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll!&quot;&amp;gt;Welcome to Jekyll!&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
@@ -433,8 +425,15 @@ c. List item 1
 		&amp;lt;/li&amp;gt;
 
 		
+		&amp;lt;/ul&amp;gt;
+	&amp;lt;/div&amp;gt;
 
-		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 15, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/html/2015/02/15/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll html!&quot;&amp;gt;Welcome to Jekyll html!&amp;lt;/a&amp;gt;
+	&amp;lt;div class=&quot;tag-archive&quot;&amp;gt;
+		&amp;lt;h3 id=&quot;liquid&quot;&amp;gt;liquid&amp;lt;/h3&amp;gt;
+		&amp;lt;ul class=&quot;taglist&quot;&amp;gt;
+		
+
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 15, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/html/2015/02/15/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll!&quot;&amp;gt;Welcome to Jekyll!&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
