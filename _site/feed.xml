@@ -5,9 +5,24 @@
     <description>This site was created for learning the web development</description>
     <link>http://localhost:4000/LearnWeb/</link>
     <atom:link href="http://localhost:4000/LearnWeb/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Jan 2017 23:22:29 +0600</pubDate>
-    <lastBuildDate>Wed, 25 Jan 2017 23:22:29 +0600</lastBuildDate>
+    <pubDate>Thu, 26 Jan 2017 21:14:35 +0600</pubDate>
+    <lastBuildDate>Thu, 26 Jan 2017 21:14:35 +0600</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>New Post</title>
+        <description>
+</description>
+        <pubDate>Thu, 26 Jan 2017 00:00:00 +0600</pubDate>
+        <link>http://localhost:4000/LearnWeb/tutorial/css/new-test-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/LearnWeb/tutorial/css/new-test-post/</guid>
+        
+        <category>new</category>
+        
+        
+        <category>css</category>
+        
+      </item>
     
       <item>
         <title>Markdown tag example</title>
@@ -279,6 +294,8 @@ c. List item 1
         
 			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#liquid&quot;&amp;gt;liquid [1]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#new&quot;&amp;gt;new [1]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+        
 			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#php&quot;&amp;gt;php [5]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
         
 			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;/LearnWeb/blog/tag/index.html#tips&quot;&amp;gt;tips [4]&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
@@ -434,6 +451,18 @@ c. List item 1
 		
 
 		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Feb 15, 2015&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/html/2015/02/15/welcome-to-jekyll.html&quot; title=&quot;Welcome to Jekyll!&quot;&amp;gt;Welcome to Jekyll!&amp;lt;/a&amp;gt;
+		&amp;lt;/li&amp;gt;
+
+		
+		&amp;lt;/ul&amp;gt;
+	&amp;lt;/div&amp;gt;
+
+	&amp;lt;div class=&quot;tag-archive&quot;&amp;gt;
+		&amp;lt;h3 id=&quot;new&quot;&amp;gt;new&amp;lt;/h3&amp;gt;
+		&amp;lt;ul class=&quot;taglist&quot;&amp;gt;
+		
+
+		&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Jan 26, 2017&amp;lt;/p&amp;gt; | &amp;lt;a href=&quot;/LearnWeb/tutorial/css/new-test-post/&quot; title=&quot;New Post&quot;&amp;gt;New Post&amp;lt;/a&amp;gt;
 		&amp;lt;/li&amp;gt;
 
 		
@@ -812,218 +841,6 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
         
         
         <category>html</category>
-        
-      </item>
-    
-      <item>
-        <title>Markdown Basics</title>
-        <description>&lt;p&gt;In Jekyll, content for pages and posts can be written in either HTML or Markdown. Although there will be times that HTML is the more appropriate choice, Markdown provides a more natural writing environment that makes blogging easier and less of a chore. In this post we’ll examine how Jekyll uses Markdown and cover some basic Markdown syntax.&lt;/p&gt;
-
-&lt;p&gt;If you’ve never used it before, Markdown is a text-to-HTML converter that let’s you write text naturally in plain text format and then convert it to valid HTML. To learn more about it, read John Gruber’s post introducing Markdown on &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; title=&quot;Introducing Markdown&quot;&gt;Daring Fireball&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Jekyll supports multiple Markdown rendering engines and allows you to specify which engine to use in the site’s configuration. Currently Jekyll supports &lt;a href=&quot;http://kramdown.gettalong.org/index.html&quot; title=&quot;Kramdown&quot;&gt;Kramdown&lt;/a&gt;, &lt;a href=&quot;https://github.com/vmg/redcarpet&quot; title=&quot;Redcarpet&quot;&gt;Redcarpet&lt;/a&gt;, and &lt;a href=&quot;http://dafoster.net/projects/rdiscount/&quot; title=&quot;Rdiscount&quot;&gt;RDiscount&lt;/a&gt;, although you’re free to use any rendering engine you have installed or even write your own!&lt;/p&gt;
-
-&lt;p&gt;To specify a rendering engine, simply add this line to your &lt;strong&gt;_config,yml&lt;/strong&gt; file:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;markdown: kramdown
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;For the most part, the rendering engines are the same, although they do have subtle differences in syntax and element support. Currently Kramdown is the default Markdown renderer for Jekyll. Let’s take a look at some basic Kramdown syntax.&lt;/p&gt;
-
-&lt;p&gt;The following passage:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#My main heading
-{: .intro }
-
-This is my initial paragraph. In it I’d like to provide a link to the [Jekyll homepage](http://jekyllrb.com/ &quot;Jekyll&quot;). I want to add **bold** and *italic* formatting to text as well using the `strong` and `emphasis` tags.
-
-This is another paragraph. I’d like to follow it with an unordered list.
-
-* item 1
-* item 2
-* item 3
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Would be rendered in HTML as:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;intro&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;My main heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;This is my initial paragraph. In it I’d like to provide a link to the &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://jekyllrb.com/&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Jekyll&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Jekyll homepage&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;. I want to add &lt;span class=&quot;nt&quot;&gt;&amp;lt;strong&amp;gt;&lt;/span&gt;bold&lt;span class=&quot;nt&quot;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; and &lt;span class=&quot;nt&quot;&gt;&amp;lt;em&amp;gt;&lt;/span&gt;italic&lt;span class=&quot;nt&quot;&gt;&amp;lt;/em&amp;gt;&lt;/span&gt; formatting to text as well using the &lt;span class=&quot;nt&quot;&gt;&amp;lt;code&amp;gt;&lt;/span&gt;strong&lt;span class=&quot;nt&quot;&gt;&amp;lt;/code&amp;gt;&lt;/span&gt; and &lt;span class=&quot;nt&quot;&gt;&amp;lt;code&amp;gt;&lt;/span&gt;emphasis&lt;span class=&quot;nt&quot;&gt;&amp;lt;/code&amp;gt;&lt;/span&gt; tags.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;This is another paragraph. I’d like to follow it with an unordered list.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;item 1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;item 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;item 3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;As you can see, Markdown frees you from many of the structural restraints that would make it difficult to author something like a blog post using HTML. To write two paragraphs, for example, you simply write two paragraphs, no &amp;lt;p&amp;gt; tags or special formatting required. Let’s take a quick look at how to format some of the basic HTML elements in Kramdown.&lt;/p&gt;
-
-&lt;p&gt;###Paragraphs&lt;/p&gt;
-
-&lt;p&gt;Consecutive lines of text are formatted as a single paragraph. As a block level element, you must to add a blank line after it to separate it from other block-level elements.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is a paragraph.
-
-This is as well.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Renders as:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;This is a paragraph.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;This is as well.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;###Headings&lt;/p&gt;
-
-&lt;p&gt;There are multiple ways to format headings in Kramdown. The easiest is to preceed the heading with hash characters (&lt;strong&gt;#&lt;/strong&gt;) equal to the heading level. An &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt; for example, would be written as &lt;code class=&quot;highlighter-rouge&quot;&gt;#heading 1&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# This is a heading 1
-
-## This is a heading 2
-
-### This is a heading 3
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Renders as:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;This is a heading 1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;This is a heading 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;This is a heading 3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;###Blockquotes&lt;/p&gt;
-
-&lt;p&gt;Blockquotes are formatted using the “greater than” character (&lt;strong&gt;&amp;gt;&lt;/strong&gt;) at the start of the blockquote. Text inside a blockquote is wrapped with a paragraph.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; This is a blockquote.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Renders as:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;blockquote&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;This is a blockquote.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/blockquote&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;###Ordered Lists&lt;/p&gt;
-
-&lt;p&gt;To create an ordered list, simply type a list started by a number followed by a period. Each list item should be on a separate line. Nested lists are created by indenting a list underneath an existing list item.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. This is the first item
-2. This is the second item
-3. This is the third item
-    1. This is a nested list
-    2. More nested list
-4. This is the fourth item.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Renders as:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ol&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;This is the first item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;This is the second item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;This is the third item
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;ol&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;This is a nested list&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;More nested list&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ol&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;This is the fourth item.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ol&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;###Block-level attributes&lt;/p&gt;
-
-&lt;p&gt;Often you may wish to assign attributes to block-level elements. To do this, follow the element with a &lt;em&gt;block inline attribute list&lt;/em&gt; (block IAL). A block IAL consists of a left curly brace, followed by a colon, the attribute definitions and a right curly brace.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Apply the class “main” to this heading
-{: .main}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Renders as:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;main&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Apply the class “main” to this heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Classes are applied with the syntax &lt;code class=&quot;highlighter-rouge&quot;&gt;.className&lt;/code&gt; and IDs with &lt;code class=&quot;highlighter-rouge&quot;&gt;#ID-name&lt;/code&gt;. For any other attribute you simply write the desired syntax:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Another heading with the ‘role’ attribute applied
-{: role=&quot;banner&quot;}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Renders as:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;banner&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Another heading with the ‘role’ attribute applied
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;For multiple attributes, create a space-separated list inside the blockIAL.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# This heading has two classes and one ID applied
-{: .class1 .class2 #ID-1}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Renders as:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;class1 class2&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ID-1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;This heading has two classes and one ID applied&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;###Inline formatting&lt;/p&gt;
-
-&lt;p&gt;Emphasis can be added to text by surrounding the text with either asterisks or underscores. This will result in wrapping the content in either the &lt;code class=&quot;highlighter-rouge&quot;&gt;strong&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;emphasis&lt;/code&gt; tag depending upon how many are used:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;I want to wrap **this text** in a strong tag and *this text* in an emphasis tag.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Renders as:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;I want to wrap &lt;span class=&quot;nt&quot;&gt;&amp;lt;strong&amp;gt;&lt;/span&gt;this text&lt;span class=&quot;nt&quot;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; in a strong tag and &lt;span class=&quot;nt&quot;&gt;&amp;lt;em&amp;gt;&lt;/span&gt;this text&lt;span class=&quot;nt&quot;&gt;&amp;lt;/em&amp;gt;&lt;/span&gt; in an emphasis tag.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;###Links&lt;/p&gt;
-
-&lt;p&gt;You can create a link by surrounding the text with square brackets and then directly following it with the link URL in parentheses. To add a title attribute, add the desired title in straight quotes (“ “) after the link URL.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;I usually search using [Google](https://www.google.com &quot;Google&quot;).
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Renders as:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;I usually search using &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://www.google.com&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Google&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Google&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;###Images&lt;/p&gt;
-
-&lt;p&gt;Images are similar to links, but use an exclamation mark before the square brackets. The link text will become the alternative text of the image and the link URL specifies the image source.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![My dog](/images/Baxter.jpg)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Renders as:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/Baxter.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;My dog&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;As you can see, Markdown is simple to write, and once you’ve learned the basic formatting options, generating semantic HTML is fairly simple. One of the most powerful Markdown features is the ability to nest HTML directly inside a Markdown document. That way if you’re unable to use Markdown to get exactly the HTML you need, you can simply inject HTML into the document and then continue using Markdown.&lt;/p&gt;
-
-&lt;p&gt;For more information on Kramdown and for a more complete reference, visit Kramdown’s &lt;a href=&quot;http://kramdown.gettalong.org/index.html&quot; title=&quot;Kramdown&quot;&gt;project page&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 29 Jun 2015 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/LearnWeb/css/2015/06/29/markdown-basics.html</link>
-        <guid isPermaLink="true">http://localhost:4000/LearnWeb/css/2015/06/29/markdown-basics.html</guid>
-        
-        <category>php</category>
-        
-        <category>wordpress</category>
-        
-        <category>css</category>
-        
-        <category>tips</category>
-        
-        
-        <category>css</category>
         
       </item>
     
