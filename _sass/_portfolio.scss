@@ -15,11 +15,24 @@
 .portfolio_box{
     font-size: 0px;
     overflow: hidden;
+
   .snigle_portfolio_box{
     width: 25%;
     display: inline-block;
     position: relative;
     overflow: hidden;
+    h3{
+      font-size: 1.6rem;
+      color: #fff;
+      position: absolute;
+      width: 95%;
+      padding: 10px;
+      text-align: center;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      background: #333;
+    }
     img{
       width: 100%;
     }

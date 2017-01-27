@@ -487,6 +487,7 @@ li.active a { color: #f26c4f; }
 
 .portfolio_box { font-size: 0px; overflow: hidden; }
 .portfolio_box .snigle_portfolio_box { width: 25%; display: inline-block; position: relative; overflow: hidden; }
+.portfolio_box .snigle_portfolio_box h3 { font-size: 1.6rem; color: #fff; position: absolute; width: 95%; padding: 10px; text-align: center; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #333; }
 .portfolio_box .snigle_portfolio_box img { width: 100%; }
 
 .overlay-effect { position: absolute; left: 100%; top: 100%; right: 100%; bottom: 100%; background: #6c767c; text-align: center; transition: all 0.3s linear; }
