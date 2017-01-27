@@ -2,7 +2,7 @@
 layout: post
 title:  "Basic Commands"
 categories: snippets
-tags: git
+tags: git css
 image: "featured-post.jpg"
 featured: true
 ---

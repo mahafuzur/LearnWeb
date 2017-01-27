@@ -4,7 +4,7 @@
     <div class="snippet-carousel">
       {% assign sorted_tags = site.tags | sort %}
       {% for tag in sorted_tags %}
-      {% assign zz = tag[1] | where: "type", "snippets" | sort %}
+      {% assign zz = tag[1] | where: "categories", "snippets" | sort %}
         {% if zz != empty %}
           {% for p in zz %}
             <div>
