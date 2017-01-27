@@ -28,7 +28,7 @@ menu:
     url: "/snippets.html"
     order: 5
   - title: "Resources"
-    url: "/web-devs-resources/"
+    url: "https://mahafuzur.github.io/web-devs-resources/"
     order: 6
   - title: "About me"
     url: "/about-me.html"

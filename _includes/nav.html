@@ -1,7 +1,11 @@
 <ul id="navigation">
   {% for item in site.data.settings.menu %}
-    <li {% if page.url == item.url %}class="active"{% endif %}>
-      <a href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
+  {% capture title %}
+  {{ item.title | downcase }}
+  {% endcapture %}
+    <li {% if page.url == item.url OR page.url contains title %}class="active"{% endif %}>
+      <a href="{% if item.title == "Resources" %}{{item.url}}{% else %}{{site.baseurl}}{{item.url}}{% endif %}">{{ item.title }}</a>
+      {{title}}
       {% if item.dropdown %}
       <ul id="dropdown">
         {% for drop in item.dropdown %}
