@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Basic Commands"
-date:   2015-04-30
-type: snippets
+categories: snippets
 tags: git
 image: "featured-post.jpg"
 featured: true
