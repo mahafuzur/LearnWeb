@@ -11,7 +11,7 @@ menu:
     url: "/blog/index.html"
     order: 3
   - title: "Tutorial"
-    url: "#"
+    url: "/tutorial"
     order: 4
     dropdown:
       - title: "Html"
