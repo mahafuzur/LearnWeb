@@ -7,8 +7,11 @@
       {% if post.featured == true and count < 2 %}
       <div class="featured-post">
         <div class="featured-post-image">
-          <!-- default image use need -->
+          {% if post.image %}
           <a href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}/images/{{post.image}}" alt="" /></a>
+          {% else %}
+          <a href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}/images/default-featured-image.jpg" alt="" /></a>
+          {% endif %}
         </div>
         <div class="featured-post-content">
         <h3 class="featured-post-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h3>
