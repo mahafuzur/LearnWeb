@@ -527,7 +527,7 @@ li.active a { color: #f26c4f; }
 
 .snippet-carousel { margin-left: -40px; }
 div .snippet-carousel:last-child { margin-right: 0; }
-.snippet-carousel a.item { display: block; position: relative; text-align: center; margin-left: 40px; margin-bottom: 40px; transition: all 0.3s linear; }
+.snippet-carousel a.item { display: block; position: relative; text-align: center; background-color: #2b3a42; margin-left: 40px; margin-bottom: 40px; transition: all 0.3s linear; }
 .snippet-carousel a.item img { width: 100%; }
 .snippet-carousel a.item span { position: absolute; bottom: 0; background: #f26c4f; color: #ffffff; padding: 5px; left: 0; right: 0; transition: all 0.3s linear; }
 .snippet-carousel a.item:hover { border: 10px solid #f26c4f; }

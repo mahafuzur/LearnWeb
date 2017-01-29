@@ -2,6 +2,9 @@
   <div class="wrapper">
     <h2 class="section-title">Code Snippets</h2>
     <div class="snippet-carousel">
+
+
+
       {% assign sorted_tags = site.tags | sort %}
       {% for tag in sorted_tags %}
       {% assign zz = tag[1] | where: "categories", "snippets" | sort %}
@@ -9,13 +12,14 @@
           {% for p in zz %}
             <div>
               <a href="{{site.baseurl}}{{p.url}}" class="item">
-                <img src="{{site.baseurl}}/images/{{tag[0]}}.png" alt="{{tag[0]}}" />
+                <img src="{{site.baseurl}}/images/{{tag[0]}}.png" alt="{{tag[0] | capitalize }}" />
                 <span>{{p.title}}</span>
               </a>
             </div>
           {% endfor %}
         {% endif %}
       {% endfor %}
+
     </div>
   </div>
 </div>
