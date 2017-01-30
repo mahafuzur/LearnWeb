@@ -57,7 +57,7 @@
     }
   }
 
-  li.active a{
+  li.active > a{
     color: $brand-color1;
   }
 }
