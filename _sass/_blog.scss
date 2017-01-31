@@ -52,15 +52,14 @@
           }
         }
       }
-      .post-meta{
-        font-style: italic;
-        font-size: 14px;
-        color: #666;
-      }
     }
   }
 }
-
+.post-meta{
+  font-style: italic;
+  font-size: 14px;
+  color: #666;
+}
 .post-content:before{
   content: "";
   position: absolute;

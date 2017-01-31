@@ -16,13 +16,7 @@ layout: default
 
           <div class="post-content">
             <h3 class="post-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h3>
-            <p class="post-meta">
-              By: <a href="{{site.baseurl}}{{post.author}}">{{post.author}}</a>,
-              Catagory: {% for cat in post.categories %}
-              <a href="{{site.baseurl}}{{post.url}}">{{cat}}</a>{% unless forloop.last%},{% endunless %}
-              {% endfor %},
-              {{post.date | date: '%B %d, %Y'}}
-            </p>
+              {% include post-meta.html class='post-meta' %}
             <p>{{post.excerpt | truncate: 200 | strip_html | strip_newlines}} <a href="{{site.baseurl}}{{post.url}}">Read More >></a></p>
           <!-- use tag -->
             <p class="tag-list">
