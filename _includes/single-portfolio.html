@@ -5,5 +5,9 @@
     <a href="#"><i class="fa fa-heart"></i></a>
     <a href="{{site.baseurl}}{{item.url}}" class="read_more_btn">More</a>
   </div>
+  {% if item.image %}
   <img src="{{site.baseurl}}/images/{{item.image}}" alt="" />
+  {% else %}
+  <img src="{{site.baseurl}}/images/default-portfolio.gif" alt="" />
+  {% endif %}
 </div>
