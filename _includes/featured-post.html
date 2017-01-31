@@ -21,7 +21,7 @@
           <p>{{post.excerpt | truncate: 200 | strip_html | strip_newlines}} <a href="{{site.baseurl}}{{post.url}}">Read More >></a>
           </p>
           <!-- use tag -->
-          {% include post-tags.html %}
+          {% include post-tags.html class='featured-tag-list' %}
         </div>
       </div>
       {% assign count = count | plus: 1 %}

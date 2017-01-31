@@ -1,0 +1,6 @@
+<p class="tag-list">
+  {% for tag in page.tags %}
+    <a href="{{site.baseurl}}/blog/tags.html#{{tag}}"><i class="fa fa-tag"></i> {{tag}}</a>
+  {% unless forloop.last%},{% endunless %}
+  {% endfor %}
+</p>
