@@ -1,28 +1,20 @@
 ---
 layout: default
-title: Tag
+title: test page
 ---
 
-{% include tag-list %}
+<ul class="tag-cloud">
+{% capture site_tags %}{% for tag in site.tags %}{{tag | first}}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign sortedTags = site_tags | split: "," | sort %}
 
-{% comment %}
-=======================
-The purpose of this snippet is to list all the tags you have in your site.
-=======================
-{% endcomment %}
-
-{% for tag in tags %}
-	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
+{% for tag in sortedTags %}
+<li><a href="{{site.baseurl}}/blog/tags.html#{{tag}}">{{tag}} [{{site.tags[tag].size}}]</a></li>
 {% endfor %}
+</ul>
 
+<hr>
 
-{% comment %}
-=======================
-The purpose of this snippet is to list all your posts posted with a certain tag.
-=======================
-{% endcomment %}
-
-{% for tag in tags %}
+{% for tag in sortedTags %}
 	<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
 	<ul>
 	 {% for post in site.posts %}
