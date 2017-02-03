@@ -24,6 +24,8 @@ menu:
         url: "/tutorial/php.html"
       - title: "Wordpress"
         url: "/tutorial/wordpress.html"
+      - title: "Jekyll"
+        url: "/tutorial/jekyll.html"
   - title: "Snippets"
     url: "/snippets.html"
     order: 5
