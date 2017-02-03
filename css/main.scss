@@ -16,6 +16,20 @@ $baseurl : '/LearnWeb';
 $spacing-unit:     30px;
 
 
+$abilities:(
+  'photoshop': 95,
+  'illustrator': 60,
+  'html': 98,
+  'css': 95,
+  'javascript': 30,
+  'jquery': 80,
+  'wordpress': 70,
+  'php': 30,
+  'jekyll': 90,
+  'git': 30
+);
+
+
 $text-color:       #3a3e3f;
 $background-color: #ffffff;
 $background-color2:#bdd4de;

@@ -44,18 +44,6 @@
   }
 }
 
-$abilities:(
-  'photoshop': 95,
-  'illustrator': 60,
-  'html': 98,
-  'css': 95,
-  'javascript': 30,
-  'jquery': 80,
-  'wordpress': 70,
-  'php': 30,
-  'jekyll': 90,
-  'git': 30
-);
 
 @each $ability, $score in $abilities{
   @keyframes show-ability-#{$ability}{
