@@ -22,6 +22,7 @@ layout: default
             <p>{{post.excerpt | truncate: 200 | strip_html | strip_newlines}} <a href="{{site.baseurl}}{{post.url}}">Read More >></a></p>
               {% include post-tags.html class="tag-list" %}
           </div>
+
         </article>
       {% endfor %}
 
@@ -31,14 +32,4 @@ layout: default
 
   </section>
 
-  <aside class="blog-sidebar">
-
-    {% include about-me.html %}
-
-    {% include contac-info.html class='widegate' titleClass="sidebar-title" %}
-
-    {% include recent-post.html %}
-
-    {% include tag-cloud.html %}
-
-  </aside>
+{% include blog-sidebar.html class="blog-sidebar" %}
