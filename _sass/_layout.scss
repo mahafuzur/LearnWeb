@@ -164,6 +164,9 @@
       &:hover{
         background: transparentize($brand-color1, 0.3);
       }
+      span{
+        visibility: hidden;
+      }
     }
   }
 }
