@@ -7,7 +7,11 @@
     <p>{{item.desc}}</p>
     <a href="{{item.btn_url}}" class="da-link">Read more</a>
     <div class="da-img">
+      {% if item.image %}
       <img src="{{site.baseurl}}/images/{{item.image}}" alt="{{item.title}}" />
+      {% else %}
+      <img src="{{site.baseurl}}/images/default-slider-image.png" alt="{{item.title}}" />
+      {% endif %}
     </div>
   </div>
 {% endfor %}
