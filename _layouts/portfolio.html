@@ -5,9 +5,14 @@ layout: default
 
   <header class="portfolio-header">
     <h2 class="portfolio-title">{{ page.title }}</h2>
+
     <p>
+      {% if page.design_author %}
       <strong>Designe by:</strong> {{page.design_author}},
+      {% endif %}
+      {% if page.developed_author %}
       <strong>Developed by:</strong> {{page.developed_author}}
+      {% endif %}
     </p>
   </header>
 
