@@ -19,6 +19,7 @@ image: slider_bg.jpg
 
 	<hr>
 
+<article>
 	{% for tag in sortedTags %}
 		<h2 id="{{ tag | slugify }}" class="tag_title">{{ tag }}</h2>
 		<ul>
@@ -37,5 +38,5 @@ image: slider_bg.jpg
 		 {% endfor %}
 		</ul>
 	{% endfor %}
-
+</article>
 </section>
