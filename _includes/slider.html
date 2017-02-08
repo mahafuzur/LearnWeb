@@ -24,7 +24,7 @@
 {% else %}
 <div class="globel-slider" style="background: url({{site.baseurl}}/images/{{page.image}});">
   <div class="slider-content-box">
-    <div class="slider-content">
+    <div class="slider-content {% if page.layout == 'post' %}post_image{%endif%}">
       <h2>{{page.title}}</h2>
       <p>{{page.desc}}</p>
       {% include page-meta.html %}

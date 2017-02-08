@@ -44,17 +44,21 @@
 	left: 50%;
 	transform: translate(-50%,-50%);
 	h2{
-		font-size: 2em;
+		font-size: 300%;
 		text-transform: uppercase;
 		text-shadow: 1px 1px 1px #000;
 		width: 100%;
 	}
+
 	p{
 		color: #fff;
 	}
 	a:hover{
 		color: #fff;
 	}
+}
+.slider-content.post_image h2{
+	font-size: 200%;
 }
 .da-slide{
 	position: absolute;
