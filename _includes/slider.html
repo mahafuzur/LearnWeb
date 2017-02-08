@@ -22,11 +22,12 @@
   </nav>
 </div>
 {% else %}
-<div class="globel-slider" style="background: transparent url({{site.baseurl}}/images/{{page.image}});">
+<div class="globel-slider" style="background: url({{site.baseurl}}/images/{{page.image}});">
   <div class="slider-content-box">
     <div class="slider-content">
       <h2>{{page.title}}</h2>
       <p>{{page.desc}}</p>
+      {% include page-meta.html %}
     </div>
   </div>
 </div>
