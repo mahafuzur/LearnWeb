@@ -12,6 +12,4 @@ $(document).ready(function(){
     bgincrement	: 450
   });
 
-  // jQuery(".slider-content h2.post_image").fitText();
-
 });
