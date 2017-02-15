@@ -22,7 +22,10 @@
   </nav>
 </div>
 {% else %}
-<div class="globel-slider" style="background: url({{site.baseurl}}/images/{{page.image}});">
+{% comment %}
+style="background: url({{site.baseurl}}/images/{{page.image}});"
+{% endcomment %}
+<div class="globel-slider">
   <div class="slider-content-box">
     <div class="slider-content {% if page.layout == 'post' %}post_image{%endif%}">
       <h2>{{page.title}}</h2>
