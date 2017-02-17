@@ -3,7 +3,7 @@
 
   {% include post-meta.html %}
 
-  <p>{{post.excerpt | truncate: 100 | strip_html | strip_newlines}} <a href="{{site.baseurl}}{{post.url}}">Read More >></a></p>
+  <p>{{post.excerpt | truncate: 150 | strip_html | strip_newlines}} <a href="{{site.baseurl}}{{post.url}}">Read More >></a></p>
 
   {% include post-tags.html class='tag-list' %}
 </li>
