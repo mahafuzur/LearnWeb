@@ -8,6 +8,7 @@ tags:
   - "table tag"
 categories:
   - "Snippets"
+type: Html
 ---
 
 ### নিচের মার্কআপটি একটি খালি টেবিলের মার্কআপ, দ্রুত ব্যবহারের জন্যে।
