@@ -16,19 +16,14 @@ menu:
     dropdown:
       - title: "Html"
         url: "/tutorial/html.html"
-      - title: "Css"
-        url: "/tutorial/css.html"
-      - title: "JavaScript"
-        url: "/tutorial/js.html"
-      - title: "Php"
-        url: "/tutorial/php.html"
-      - title: "Wordpress"
-        url: "/tutorial/wordpress.html"
-      - title: "Jekyll"
-        url: "/tutorial/jekyll.html"
   - title: "Snippets"
-    url: "/snippets.html"
+    url: "/snippets"
     order: 5
+    dropdown:
+      - title: "Html"
+        url: "/snippets/html.html"
+      - title: "Css"
+        url: "/snippets/css.html"
   - title: "Resources"
     url: "https://mahafuzur.github.io/web-devs-resources/"
     order: 6
