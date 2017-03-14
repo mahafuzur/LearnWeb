@@ -1,6 +1,6 @@
 ---
 layout: snippets
-title: HTML Snippets
+title: CSS Snippets
 image: slider_bg.jpg
-type: html
+type: css
 ---
