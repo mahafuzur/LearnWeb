@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Triangular List Bullets"
+image: "slider_bg.jpg"
+author: "Monir"
+tags:
+  - "css"
+  - "list style"
+  - "triangular list"
+categories:
+  - "Snippets"
+type: css  
+---
+
+### নিচের কোড লিস্টকে ট্রাইন্গুলার বুলেটে পরিনত করে।
+
+```css
+ul{
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+li:before {
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+```
+
+[Reference URL](http://jsfiddle.net/chriscoyier/yNZTU/)
