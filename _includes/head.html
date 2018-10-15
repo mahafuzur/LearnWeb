@@ -1,7 +1,7 @@
 <head>
   {% include site-meta.html %}
-
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+{% capture pagetitle %}{{page.title}}{%endcapture%}
+  <title>{% if page.title %}{{ pagetitle | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
   {% include head-links.html %}
   <script src="{{site.baseurl}}/js/modernizr.custom.28468.js"></script>
